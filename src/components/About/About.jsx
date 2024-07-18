@@ -5,8 +5,8 @@ import {getImageURL} from "../../utils";
 
 export const About = () => {
   return (
-    <section>
-      <h1>
+    <section className={styles.container}>
+      <h1 className={styles.title}>
       About
       </h1>
       <div>
@@ -25,7 +25,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItemText}>
-            <img src={getImageURL("about/cursorIcon.png")} alt="Icon" />
+            <img src={getImageURL("about/backendIcon.png")} alt="Icon" />
             <div>
               <h3>
               Backend Developer
@@ -42,7 +42,7 @@ export const About = () => {
               AI Enthusiast
               </h3>
               <p>
-              I'm passionate about the development of AI. I have experiences in devloping AI-based Anomaly Detectors for water distribution systems.
+              I'm passionate about the development of AI. I have experiences in developing AI-based Anomaly Detectors for water distribution systems.
               </p>
             </div>
           </li>
@@ -53,7 +53,7 @@ export const About = () => {
               Beginner Frontend Developer
               </h3>
               <p>
-              Recently became a developer of responsive websites.
+              Recently became a developer of responsive websites. I built this portfolio website!
               </p>
             </div>
           </li>
@@ -64,7 +64,7 @@ export const About = () => {
               Aspiring Game Developer
               </h3>
               <p>
-              Recently became a developer of responsive websites.
+              Currently learning how to make games using Unreal.
               </p>
             </div>
           </li>
@@ -75,7 +75,7 @@ export const About = () => {
               Digital Artist
               </h3>
               <p>
-              Recently became a developer of responsive websites.
+              I make anime style art for fantasy characters, my own OCs, and fanarts for different IPs.
               </p>
             </div>
           </li>

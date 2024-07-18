@@ -13,8 +13,7 @@ export const Hero = () => {
         Hi, Ivan here!
         </h1>
         <p className={styles.description}>
-        Cybersecurity Researcher, Gamer, Game Developer,
-        Deep Learning Enthusiast.
+        Cybersecurity Researcher.
         </p>
         <p className={styles.description}>
         Reach Out to learn more!
